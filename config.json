@@ -1,0 +1,26 @@
+{
+  "src_airports": ["%2BWAW", "WMI", "KTW", "WRO", "POZ"],
+  "src_airport_query": "&srcAirport=Lodz+[LCJ]+(%2C)",
+  "dst_airports": {
+    "Malta": "MLA",
+    "Tbilisi": "TBS",
+    "Kutaisi": "KUT",
+    "Lisbon": "LIS",
+    "Porto": "OPO",
+    "Faro": "FAO",
+    "Madeira": "FNC",
+    "Barcelona": "BCN",
+    "Madrid": "MAD",
+    "Valencia": "VLC",
+    "Reykjavik": "KEF"
+  },
+  "date_range": {
+    "dep_date": "1.7.2025",
+    "arr_date": "31.8.2025"
+  },
+  "duration_range": {
+    "min_day_stay": "5",
+    "max_day_stay": "8"
+  },
+  "currency": "PLN"
+}

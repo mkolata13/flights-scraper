@@ -1,0 +1,25 @@
+import scrapy
+
+
+class FlightItem(scrapy.Item):
+    scrape_date = scrapy.Field()
+    price_total = scrapy.Field()
+    price_outbound = scrapy.Field()
+    price_return = scrapy.Field()
+    date_of_departure = scrapy.Field()
+    date_of_return = scrapy.Field()
+    length_of_stay = scrapy.Field()
+    airline_outbound = scrapy.Field()
+    flight_no_outbound = scrapy.Field()
+    departure_airport_outbound = scrapy.Field()
+    arrival_airport_outbound = scrapy.Field()
+    dep_time_outbound = scrapy.Field()
+    arr_time_outbound = scrapy.Field()
+    flight_duration_outbound = scrapy.Field()
+    airline_return = scrapy.Field()
+    flight_no_return = scrapy.Field()
+    departure_airport_return = scrapy.Field()
+    arrival_airport_return = scrapy.Field()
+    dep_time_return = scrapy.Field()
+    arr_time_return = scrapy.Field()
+    flight_duration_return = scrapy.Field()
